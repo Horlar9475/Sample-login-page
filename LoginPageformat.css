@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #f1f1f2;
+    /* overflow: hidden; */
+    height: 100vh;
+    width: 100vw;
+    background-image: url(800px-ESO-Trumpler14-cluster-58b82ff43df78c060e650718.jpg);
+    background-size: contain;
+    font-family: cursive;
+}
+#section{
+    height: 100vh;
+    width: 100vw;
+    background-color: blue;
+    opacity: 0.5;
+    position: absolute;
+}
+nav{
+    border: 1px solid none;
+    height: 10vh;
+    width: 100vw;
+    background-color: wheat;
+    padding-left: 50px;
+    padding-right: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    position: absolute;
+    box-shadow: 0px 5px  10px 2px whitesmoke;
+}
+#logo{
+    border: 1px solid none;
+    height: 9vh;
+    width: 5vw;
+    border-radius: 10%;
+    background-image: url(spade.png);
+    background-size: cover;
+    opacity: 0.7;
+}
+.Ndiv{
+    border: 1px solid none;
+    height: 5vh;
+    width: 30vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#Login{
+    border: 1px solid none;
+    height: 60vh;
+    width: 32vw;
+    position: absolute;
+    background-image: url(71ba3562bc89f6a11e5d5625da09bfeb.jpg);
+    background-size: cover;
+    background-color: whitesmoke;
+    border-radius: 5%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    visibility: hidden;
+    display: block;
+    padding: 50px;
+    box-shadow: 5px 5px  10px 2px whitesmoke;
+    opacity: 0.9;
+}
+#Login:target{
+    visibility: visible;
+}
+.input{
+    border: none;
+    height: 50px;
+    width: 25vw;
+    border-radius: 20px;
+    padding: 10px;
+    font-family: fantasy;
+    font-size: large;
+    font-style: italic;
+    border-bottom: 1px solid blue;
+    border-right: 1px solid blue;
+}
+.input:focus{
+    outline: none;
+    opacity: 0.5;
+    background-color: red;
+}
+button{
+    width: 15vw;
+    height: 6vh;
+    border-radius: 20px;
+    display: block;
+    margin: auto;
+    background-color: wheat;
+    color: blue;
+    font-size: larger;
+    font-style: oblique;
+    box-shadow: 1px 1px 5px 1px rgb(135, 135, 192) inset;
+    border: 1px solid blue;
+}
+button:hover{
+    transform: scale(1.05);
+    color: white;
+    background-color: wheat;
+    opacity: 0.5;
+}
+.fopas{
+    display: block;
+    text-align: center;
+    text-decoration: none;
+}
+a:hover{
+    transform: scaleX(1.05);
+    color: red;
+}
+b:hover{
+    transform: scaleX(1.05);
+}
